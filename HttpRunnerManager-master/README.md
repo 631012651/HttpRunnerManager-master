@@ -1,4 +1,4 @@
-HttpRunnerManager
+HttpRunnerManager（图片在pycharm中打开可见）
 =================
 
 Design Philosophy
