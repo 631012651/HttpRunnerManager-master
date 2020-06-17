@@ -445,3 +445,155 @@ ValueError: invalid literal for int() with base 10: '用例_quant_login_out(登入登
 2020-05-14 21:19:02,705 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
 2020-05-15 16:45:37,653 [django.request:93] [base:get_response] [WARNING]- Not Found: /login/
 2020-05-15 16:46:34,544 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-05-21 14:52:39,205 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-05-21 14:52:44,542 [django.request:93] [base:get_response] [WARNING]- Not Found: /login/
+2020-05-21 14:57:15,329 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2020-05-21 14:57:16,749 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2020-05-21 14:57:19,171 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2020-05-21 14:57:19,384 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2020-05-21 14:57:19,575 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2020-05-21 14:57:23,915 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2020-05-21 14:57:27,191 [HttpRunnerManager:60] [views:login] [INFO]- tester 登录失败, 请检查用户名或者密码
+2020-05-21 14:57:28,284 [HttpRunnerManager:60] [views:login] [INFO]- admin 登录失败, 请检查用户名或者密码
+2020-05-21 14:57:28,469 [HttpRunnerManager:60] [views:login] [INFO]-  登录失败, 请检查用户名或者密码
+2020-05-21 14:57:31,466 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-05-21 15:39:29,472 [HttpRunnerManager:89] [views:log_out] [INFO]- hupeng退出
+2020-05-21 15:39:30,728 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-05-21 15:39:54,000 [HttpRunnerManager:89] [views:log_out] [INFO]- hupeng退出
+2020-05-21 15:39:55,075 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-05-22 15:43:26,244 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view HttpRunnerManager.activator.process didn't return an HttpResponse object. It returned None instead.
+2020-05-22 15:43:47,639 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-05-23 10:18:42,222 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-05-23 22:50:07,755 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-05-27 13:32:38,255 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-06-11 09:39:31,444 [HttpRunnerManager:55] [views:login] [INFO]- hupeng 登录成功
+2020-06-17 17:15:56,041 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 17:16:04,760 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:17:01,247 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:17:06,239 [django.request:93] [base:get_response] [WARNING]- Not Found: /login/
+2020-06-17 17:18:18,661 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\HttpRunnerManager-master\HttpRunnerManager-master\HttpRunnerManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'ApiManager.views' has no attribute 'docs'
+2020-06-17 17:21:01,957 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\HttpRunnerManager-master\HttpRunnerManager-master\HttpRunnerManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'ApiManager.views' has no attribute 'docs'
+2020-06-17 17:21:55,171 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\HttpRunnerManager-master\HttpRunnerManager-master\HttpRunnerManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'ApiManager.views' has no attribute 'docs'
+2020-06-17 17:22:10,076 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:24:08,311 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 17:24:57,803 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 17:25:00,855 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:34:01,769 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 22:00:27,072 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 22:01:26,930 [django.request:93] [base:get_response] [WARNING]- Not Found: /login

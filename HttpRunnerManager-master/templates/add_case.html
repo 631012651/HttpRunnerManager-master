@@ -39,7 +39,7 @@
                     <label class="control-label col-sm-3"
                            style="font-weight: inherit; font-size: small ">选择项目:</label>
                     <div class="col-sm-8">
-                        <select class="form-control" id="project" name="project"
+                        <select class="form-control"  name="project"  <!-- id="project"   -->
                                 onchange="auto_load('#form_message', '/api/add_case/', '#module', 'module')">
                             <option value="请选择">请选择</option>
                             {% for foo in project %}

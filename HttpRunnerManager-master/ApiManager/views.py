@@ -29,9 +29,10 @@ from httprunner import HttpRunner
 logger = logging.getLogger('HttpRunnerManager')
 
 # Create your views here.
-
-
-
+'''
+from rest_framework_swagger.views import get_swagger_view
+schema_view = get_swagger_view(title='API')
+'''
 def login_check(func):
     def wrapper(request, *args, **kwargs):
         if not request.session.get('login_status'):

@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ApiManager',
     'djcelery',
+   # 'rest_framework',
+    #'rest_framework_swagger',
 ]
 
 MIDDLEWARE = [
@@ -241,3 +243,17 @@ LOGGING = {
         },
     }
 }
+'''
+SWAGGER_SETTINGS = {
+        # 这里可以用获取到的token来登录
+        'SECURITY_DEFINITIONS': {
+            'api_key':{
+                'type': 'apiKey',
+                'in':'query', # token位置在url中
+                'name':'token' # 验权的字段
+                }
+            },
+        'USE_SESSION_AUTH': False,
+        'JSON_EDITOR': False, # False，用户可以自己编辑格式，不用按照serializers中的数据添加。True，会有多个输入框，输入serializer对应的字段的值
+        }
+'''

@@ -1116,3 +1116,432 @@ ValueError: invalid literal for int() with base 10: '”√¿˝_quant_login_out(µ«»Îµ«
 2020-05-15 16:46:32,914 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
 2020-05-15 16:46:34,554 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
 2020-05-15 16:46:34,664 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18312
+2020-05-21 14:52:39,205 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-05-21 14:52:39,206 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2365
+2020-05-21 14:52:44,542 [django.request:93] [base:get_response] [WARNING]- Not Found: /login/
+2020-05-21 14:52:44,543 [django.server:124] [basehttp:log_message] [WARNING]- "GET /login/ HTTP/1.1" 404 2401
+2020-05-21 14:54:33,396 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+2020-05-21 14:54:33,425 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2020-05-21 14:54:35,183 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1874
+2020-05-21 14:54:35,212 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+2020-05-21 14:54:35,213 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2020-05-21 14:54:35,215 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2020-05-21 14:54:35,222 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2020-05-21 14:54:35,258 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2020-05-21 14:54:35,260 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2020-05-21 14:54:37,213 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:54:37,251 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2020-05-21 14:54:44,325 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:54:48,661 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:54:50,519 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:54:55,525 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:55:08,021 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:55:15,493 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:55:21,988 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:55:29,010 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-21 14:55:35,205 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2020-05-21 14:55:35,253 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7760
+2020-05-21 14:55:35,266 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+2020-05-21 14:55:35,277 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2020-05-21 14:55:35,277 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2020-05-21 14:55:38,286 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/auth/user/ HTTP/1.1" 200 6710
+2020-05-21 14:55:38,304 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+2020-05-21 14:55:38,310 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+2020-05-21 14:55:38,318 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+2020-05-21 14:55:38,332 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2020-05-21 14:55:38,332 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+2020-05-21 14:55:38,332 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+2020-05-21 14:55:38,336 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+2020-05-21 14:55:38,338 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2020-05-21 14:55:38,345 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+2020-05-21 14:55:38,353 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2020-05-21 14:55:38,361 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2020-05-21 14:55:38,365 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2020-05-21 14:55:38,409 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2020-05-21 14:55:38,410 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2020-05-21 14:55:40,125 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/auth/user/1/change/ HTTP/1.1" 200 17600
+2020-05-21 14:55:40,144 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+2020-05-21 14:55:40,155 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+2020-05-21 14:55:40,155 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+2020-05-21 14:55:40,158 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12680
+2020-05-21 14:55:40,158 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+2020-05-21 14:55:40,160 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20283
+2020-05-21 14:55:40,167 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2020-05-21 14:55:40,173 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+2020-05-21 14:55:40,190 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+2020-05-21 14:55:40,234 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2020-05-21 14:55:40,234 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2020-05-21 14:55:40,235 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2020-05-21 14:55:40,248 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2020-05-21 14:55:40,248 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2020-05-21 14:55:49,123 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/auth/user/ HTTP/1.1" 200 6710
+2020-05-21 14:55:49,156 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2020-05-21 14:56:12,300 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7760
+2020-05-21 14:57:13,666 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:15,342 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:16,755 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:19,178 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:19,390 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:19,581 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:23,921 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:27,198 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:28,291 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:28,476 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3876
+2020-05-21 14:57:31,472 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-05-21 14:57:31,530 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18312
+2020-05-21 15:15:03,621 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7760
+2020-05-21 15:37:01,942 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 15:37:02,561 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 15:37:02,569 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 15:37:18,798 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 15:37:19,325 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 15:37:19,340 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 15:39:29,485 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/log_out/ HTTP/1.1" 302 0
+2020-05-21 15:39:29,488 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-21 15:39:30,733 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-05-21 15:39:30,779 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 15:39:51,024 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 15:39:51,353 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 15:39:51,365 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 15:39:54,014 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/log_out/ HTTP/1.1" 302 0
+2020-05-21 15:39:54,017 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-21 15:39:55,081 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-05-21 15:39:55,124 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 17:48:25,818 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 17:48:28,531 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 17:48:28,546 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 17:52:32,872 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 17:52:33,441 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 17:52:33,451 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 17:52:35,849 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 17:52:36,208 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 17:52:36,216 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 17:52:38,097 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18320
+2020-05-21 17:52:38,394 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 17:52:38,402 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 17:52:44,379 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26264
+2020-05-21 17:52:53,958 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17489
+2020-05-21 17:52:56,137 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26264
+2020-05-21 17:52:58,544 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17489
+2020-05-21 17:52:59,898 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13039
+2020-05-21 17:53:05,253 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33835
+2020-05-21 17:53:22,565 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33835
+2020-05-21 17:53:45,676 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25239
+2020-05-21 17:53:48,153 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16044
+2020-05-21 17:53:51,106 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16044
+2020-05-21 17:53:53,351 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33835
+2020-05-21 17:53:58,963 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16044
+2020-05-21 17:54:03,728 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 21647
+2020-05-21 17:54:04,027 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2020-05-21 17:54:06,591 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33835
+2020-05-21 17:54:37,327 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/testcaseinfo/ HTTP/1.1" 200 4198
+2020-05-21 17:54:37,368 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2020-05-21 18:15:28,275 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33835
+2020-05-21 18:15:37,657 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 18:15:37,664 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 18:25:12,714 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-05-21 18:25:13,340 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-05-21 18:25:13,345 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-05-21 18:29:04,447 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-21 18:29:09,419 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17505
+2020-05-21 18:29:11,118 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-21 18:29:14,946 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14417
+2020-05-21 18:29:18,465 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-21 18:35:28,994 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17505
+2020-05-21 18:35:30,798 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-21 21:29:33,021 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 22774
+2020-05-21 21:29:38,756 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16503
+2020-05-21 21:29:43,036 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 18786
+2020-05-21 21:29:50,976 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 17770
+2020-05-21 21:30:01,632 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 17770
+2020-05-21 21:30:03,928 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 17770
+2020-05-21 22:39:38,836 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25255
+2020-05-22 15:42:38,745 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2020-05-22 15:42:40,495 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1874
+2020-05-22 15:42:40,521 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2020-05-22 15:42:40,521 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 304 0
+2020-05-22 15:42:40,522 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2020-05-22 15:42:40,530 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+2020-05-22 15:42:40,576 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+2020-05-22 15:42:40,577 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+2020-05-22 15:43:26,244 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 139, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view HttpRunnerManager.activator.process didn't return an HttpResponse object. It returned None instead.
+2020-05-22 15:43:26,289 [django.server:124] [basehttp:log_message] [ERROR]- "HEAD /api/login/ HTTP/1.1" 500 64473
+2020-05-22 15:43:26,327 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-22 15:43:26,785 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-22 15:43:26,824 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2020-05-22 15:43:45,657 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-22 15:43:47,645 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-05-22 15:43:47,712 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-05-22 15:44:21,885 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2020-05-22 15:44:21,927 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7760
+2020-05-22 15:44:21,938 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2020-05-22 15:44:21,944 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2020-05-22 15:44:21,945 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2020-05-22 15:44:21,968 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+2020-05-22 15:44:27,863 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-05-22 18:12:32,943 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-22 18:12:36,019 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17505
+2020-05-22 18:12:41,071 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25255
+2020-05-22 18:12:43,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16060
+2020-05-22 18:12:46,540 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16060
+2020-05-22 18:12:49,869 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-05-22 18:14:12,045 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24322
+2020-05-22 18:14:26,386 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 18786
+2020-05-23 10:17:12,408 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2020-05-23 10:17:14,182 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1874
+2020-05-23 10:17:15,844 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2020-05-23 10:17:15,887 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7760
+2020-05-23 10:17:20,429 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/logout/ HTTP/1.1" 200 1233
+2020-05-23 10:17:22,114 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2020-05-23 10:17:22,189 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1874
+2020-05-23 10:17:25,682 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-05-23 10:17:58,958 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-23 10:18:14,312 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 302 0
+2020-05-23 10:18:14,315 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-23 10:18:26,405 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2020-05-23 10:18:26,415 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1874
+2020-05-23 10:18:42,228 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-05-23 10:18:42,300 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-05-23 10:19:43,760 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-05-23 14:17:21,786 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-23 14:17:51,732 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-05-23 14:19:24,670 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-23 14:19:31,677 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-05-23 14:26:58,719 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 21663
+2020-05-23 14:26:58,987 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2020-05-23 22:50:06,365 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 302 0
+2020-05-23 22:50:06,382 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-23 22:50:07,762 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-05-23 22:50:07,889 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-05-27 13:32:36,864 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-05-27 13:32:38,261 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-05-27 13:32:38,331 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-05-27 13:42:30,194 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-05-27 13:42:56,572 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 22774
+2020-05-27 13:43:00,083 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_suite/ HTTP/1.1" 200 17569
+2020-05-27 13:43:07,335 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16503
+2020-05-27 13:44:55,032 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-05-27 13:44:57,780 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17505
+2020-05-27 13:45:10,101 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16060
+2020-06-11 09:39:29,410 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-06-11 09:39:29,476 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2020-06-11 09:39:29,481 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2020-06-11 09:39:29,489 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2020-06-11 09:39:29,539 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2020-06-11 09:39:29,567 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-11 09:39:29,583 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-06-11 09:39:31,471 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2020-06-11 09:39:31,722 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-06-11 09:39:31,789 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2020-06-11 09:39:31,792 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2020-06-11 09:39:52,292 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-06-11 09:39:52,394 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-11 09:39:52,400 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-06-11 09:40:08,563 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-06-11 09:40:08,756 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-11 09:40:08,765 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-06-11 09:45:54,078 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18336
+2020-06-11 09:46:06,675 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-11 09:46:06,685 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-06-11 09:46:09,065 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-06-11 09:46:11,045 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17505
+2020-06-11 09:46:14,953 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17505
+2020-06-11 09:46:21,077 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16060
+2020-06-11 09:46:28,069 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-06-11 09:49:13,107 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24322
+2020-06-11 09:49:41,752 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 22774
+2020-06-11 09:49:55,112 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 21663
+2020-06-11 09:49:55,356 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2020-06-11 09:52:17,428 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+2020-06-11 09:52:17,494 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2020-06-11 09:52:20,774 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1874
+2020-06-11 09:52:21,058 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2020-06-11 09:52:21,074 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2020-06-11 09:52:21,081 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2020-06-11 09:52:21,081 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2020-06-11 09:52:21,126 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2020-06-11 09:52:21,126 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2020-06-11 09:52:23,227 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2007
+2020-06-11 09:52:23,276 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2020-06-11 09:52:28,237 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2020-06-11 09:52:28,340 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 7760
+2020-06-11 09:52:28,366 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+2020-06-11 09:52:28,371 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2020-06-11 09:52:28,371 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2020-06-11 10:45:43,303 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16060
+2020-06-11 10:46:59,527 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16060
+2020-06-11 10:47:00,108 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-11 10:47:00,128 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-06-11 10:47:01,979 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-06-11 10:47:51,364 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14417
+2020-06-11 10:52:46,002 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-06-11 10:52:48,469 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-06-11 10:52:51,974 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17505
+2020-06-11 10:52:55,579 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-06-11 10:57:14,234 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 33851
+2020-06-11 10:57:27,956 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26280
+2020-06-17 17:15:56,041 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 17:15:56,042 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2483
+2020-06-17 17:16:04,752 [django.server:124] [basehttp:log_message] [INFO]- "GET /docs HTTP/1.1" 301 0
+2020-06-17 17:16:04,760 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:16:06,304 [django.server:124] [basehttp:log_message] [ERROR]- "GET /docs/ HTTP/1.1" 500 90814
+2020-06-17 17:17:01,247 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:17:01,277 [django.server:124] [basehttp:log_message] [ERROR]- "GET /docs/ HTTP/1.1" 500 90814
+2020-06-17 17:17:06,239 [django.request:93] [base:get_response] [WARNING]- Not Found: /login/
+2020-06-17 17:17:06,240 [django.server:124] [basehttp:log_message] [WARNING]- "GET /login/ HTTP/1.1" 404 2519
+2020-06-17 17:17:26,283 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-06-17 17:17:26,296 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2020-06-17 17:17:41,616 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2020-06-17 17:17:41,623 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2020-06-17 17:17:41,625 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.eot?u4m6fy HTTP/1.1" 200 6820
+2020-06-17 17:17:41,650 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-17 17:17:41,670 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2020-06-17 17:18:18,660 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/docs HTTP/1.1" 301 0
+2020-06-17 17:18:18,661 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\HttpRunnerManager-master\HttpRunnerManager-master\HttpRunnerManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'ApiManager.views' has no attribute 'docs'
+2020-06-17 17:18:18,692 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/docs/ HTTP/1.1" 500 74867
+2020-06-17 17:21:01,957 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\HttpRunnerManager-master\HttpRunnerManager-master\HttpRunnerManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'ApiManager.views' has no attribute 'docs'
+2020-06-17 17:21:02,038 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/docs/ HTTP/1.1" 500 74892
+2020-06-17 17:21:04,955 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-06-17 17:21:05,079 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 304 0
+2020-06-17 17:21:05,083 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 304 0
+2020-06-17 17:21:05,084 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 304 0
+2020-06-17 17:21:05,090 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.eot?u4m6fy HTTP/1.1" 304 0
+2020-06-17 17:21:05,090 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-17 17:21:55,171 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\HttpRunnerManager-master\HttpRunnerManager-master\HttpRunnerManager\activator.py", line 12, in process
+    fun = getattr(view, fun)
+AttributeError: module 'ApiManager.views' has no attribute 'docs'
+2020-06-17 17:21:55,213 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/docs/ HTTP/1.1" 500 74867
+2020-06-17 17:22:10,076 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:22:10,104 [django.server:124] [basehttp:log_message] [ERROR]- "GET /docs/ HTTP/1.1" 500 90788
+2020-06-17 17:24:08,311 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 17:24:08,312 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2483
+2020-06-17 17:24:57,803 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 17:24:57,803 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2483
+2020-06-17 17:25:00,855 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:25:00,933 [django.server:124] [basehttp:log_message] [ERROR]- "GET /docs/ HTTP/1.1" 500 90814
+2020-06-17 17:34:01,769 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\rest_framework\renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "D:\anaconda\envs\HttpRunnerManager-master\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2020-06-17 17:34:01,847 [django.server:124] [basehttp:log_message] [ERROR]- "GET /docs/ HTTP/1.1" 500 90680
+2020-06-17 18:02:09,125 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2020-06-17 18:02:09,240 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 304 0
+2020-06-17 18:02:09,246 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 304 0
+2020-06-17 18:02:09,246 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 304 0
+2020-06-17 18:02:09,254 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2020-06-17 18:02:09,255 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.eot?u4m6fy HTTP/1.1" 304 0
+2020-06-17 22:00:27,072 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2020-06-17 22:00:27,073 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2483
+2020-06-17 22:01:26,930 [django.request:93] [base:get_response] [WARNING]- Not Found: /login
+2020-06-17 22:01:26,931 [django.server:124] [basehttp:log_message] [WARNING]- "GET /login HTTP/1.1" 404 2516

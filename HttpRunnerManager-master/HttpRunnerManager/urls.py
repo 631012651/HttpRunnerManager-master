@@ -18,11 +18,16 @@ from django.contrib import admin
 from django.views.generic import RedirectView
 
 from HttpRunnerManager.activator import process
-
+#以下是添加swagger
+'''
+from rest_framework.schemas import get_schema_view
+from rest_framework_swagger.renderers import SwaggerUIRenderer, OpenAPICodec
+schema_view = get_schema_view(title='API', renderer_classes=[SwaggerUIRenderer, OpenAPICodec])
+'''
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^favicon\.ico$', RedirectView.as_view(url='/static/assets/img/favicon.ico')),
     url('^(?P<app>(\w+))/(?P<function>(\w+))/$', process),
     url('^(?P<app>(\w+))/(?P<function>(\w+))/(?P<id>(\w+))/$', process),
-
+    #url(r'docs/', schema_view, name='docs'),
 ]
